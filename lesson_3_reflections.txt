@@ -5,8 +5,33 @@ allow others to checkout your files for review, additions/updates, etc.  This al
 for others to see the levels of your project, from production level to experimental/testing.
 
 
-Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Why might you want to always pull changes manually rather than having Git automatically stay 
+up-to-date with your remote repository?
 
-Pulling changes manually allows the developer to keep Git clean and organized.  Also, changes that are made remotely, whether by the developer or individuals working on the developer’s project, may not be ready to be pulled from the remote or may not have been saved at a logical point.  The ability to review manually and pull if necessary allows the
+Pulling changes manually allows the developer to keep Git clean and organized.  Also, 
+changes that are made remotely, whether by the developer or individuals working on the 
+developer’s project, may not be ready to be pulled from the remote or may not have been 
+saved at a logical point.  The ability to review manually and pull if necessary allows the
 developer greater control.  
+
+
+Describe the differences between forks, clones, and branches. When would you use one 
+instead of another?
+
+A fork is a clone from one GitHub repository to another, staying exclusively within GitHub.  
+This allows you to make changes to a repository you don’t have permission for.  The fork also 
+sites its original source.  Finally, it’s a quicker and easier way to share with other 
+individuals (as opposed to cloning remotely then setting up sharing privileges with others).
+  
+A clone is a replication of a repository that can be cloned (connected remotely) between 
+GitHub (or other VCS) and a user’s local system or cloned within the users system itself. A 
+clone is ideal when you need to make extensive changes that would be cumbersome directly
+on GitHub.  Also, it allows you to keep your changes locally until they’re ready for a logical
+push, as well as run all aspects of a project with your changes to verify all components run
+correctly before pushing to GitHub.
+
+Branches allow developers to work on particular aspects of a project independently that may
+be incorporated back into the master branch when ready for production.  They are ideal when 
+making specific changes/additions to the project, which can then be integrated back into the
+clone/fork.
 
