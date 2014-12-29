@@ -1,0 +1,79 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Viewing a diff between two versions allowed me to immediately recognize any errors 
+and/or differences that may have come about between versions.  A potentially cumbersome 
+task of searching line by line was made remarkably easy by distilling the two versions 
+down to only the discrepancies.  
+
+ 
+
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+Having access to the entire history allows an individual to pull from elements from 
+all versions that may be incorporated into the current version.  In other words, 
+an an element(s) that may have been discarded in an earlier version(s) may prove to be
+the most effective approach in the current version after all, and can thus be 
+easily implemented.  Also, an earlier version overall may have been a better 
+approach/path than the newer version.  Version control allows an easy return to 
+the original path (while still allowing for logical elements of the new version to 
+possibly be implemented into the older version).  Short answer: it allows for backwards
+and forwards compatibility.  
+
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+The pros and cons of auto-saving commits:  The pro is that it saves the user from 
+forgetting to commit on a regular basis.  An immense amount of work may be completed,
+only to be lost to something like a systems crash.  The con is that the auto-save 
+will most likely not save at a logical juncture.  Under this circumstance, the auto-save
+may be confusing.  Such confusion may be compounded when comparing another auto-save(s) 
+that suffers from the same problem.
+
+The pros and cons of manual saving:  The pro is that the developer has complete control 
+over the save option, allowing for a logical controlled save as they feel fit.  This allows 
+for a stable comparison between versions.  The con is that the user fails to remember to
+save at regular logical intervals.  If a crash is experienced, valuable work may be lost.  
+ 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+It’s all dependent upon their intended functionality.  A version control like Google docs,
+stores files that are most likely not dependent upon each other for functionality.  In 
+this case, multiple file saving is not necessarily needed, and may even prove excessive.
+Version control systems like Git save multiple files in one commit for, again, specific
+functionality.  The types of files saved in Git are most likely dependent upon one 
+another for functionality, so a multiple file save in one commit will allow a developer
+to understand changes made and their effects across the board.  A developer can track
+the effects without having to search through each and every file individually. 
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log allows you to locate the specific type of commit you are looking for.  Once you
+have located the particular commit your looking for, you can compare that commit ID to the 
+prior commit ID to see the exact additions and subtractions in lines of coding between the 
+two commits.
+
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Due to the ability to easily search git commits at any stage of the process, any change(s)
+that can break the program are easy to discover and repair.  Knowing that there is a 
+functioning past commit that is stable allows the developer to confidently modify/experiment 
+current coding without the worry of the not being able to find the cause of the error.  This
+frees up the developer to make multiple changes within the current commit, removing the need
+to run the program after each individual logical change.  Such tedious repetition is 
+eliminated.   
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Now that the workspace is set up, I now want to use git through my text editor Sublime.  This
+will allow me to work consistently with all associated files in the repository in Sublime.  
