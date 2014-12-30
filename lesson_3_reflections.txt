@@ -35,3 +35,30 @@ be incorporated back into the master branch when ready for production.  They are
 making specific changes/additions to the project, which can then be integrated back into the
 clone/fork.
 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The benefit is it allows you to work offline on the remote files if needed. 
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be 
+harder?
+
+You could collaborate by sending edits via email, or even via phone to discuss 
+edits, but this would be a much harder process.  It renders the effectiveness of project 
+history to an almost meaningless status.  Also, all individuals working on the project
+may be left out of the loop, potentially causing conflicts and redundant work.  Finally, 
+the logic of the edits themselves may be lost and affect the overall understanding of the 
+project.
+
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+You’d want to make changes in a separate branch when it’s necessary to keep the code
+outside of the master until it’s approved and ready for incorporation into the master. 
+This provides a level of quality control by getting edit feedback that may improve/streamline
+the code.  Working directly in the master sidesteps the extra processes required to 
+create a separate branch, making the process quicker and potentially more efficient by 
+reducing time/labor.  Of course, it doesn’t have the stronger system of checks and balances
+inherent in the separate branch approach.   
