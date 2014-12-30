@@ -44,7 +44,7 @@ The benefit is it allows you to work offline on the remote files if needed.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be 
 harder?
 
-You could collaborate by sending edits via email, or even via phone to discuss 
+You could collaborate by sending edits via email, phone, Skype, etc. to discuss 
 edits, but this would be a much harder process.  It renders the effectiveness of project 
 history to an almost meaningless status.  Also, all individuals working on the project
 may be left out of the loop, potentially causing conflicts and redundant work.  Finally, 
